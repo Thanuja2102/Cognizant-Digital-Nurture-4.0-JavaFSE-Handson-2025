@@ -1,5 +1,5 @@
 # Repository Contents (Custom Order)
-[Week1 Data Structures and Algorithms](https://github.com/Thanuja2102/Cognizant-Digital-Nurture-4.0-JavaFSE-Handson-2025/tree/main/week1-DataStructuresAndAlgorithm )
+[Week1 Data Structures and Algorithms](https://github.com/Thanuja2102/Cognizant-Digital-Nurture-4.0-JavaFSE-Handson-2025/tree/main/week1-DataStructuresAndAlgorithm)
 [Week1 Design Principles and Patterns](https://github.com/Thanuja2102/Cognizant-Digital-Nurture-4.0-JavaFSE-Handson-2025/tree/main/Week1-DesignPrincipleAndPatterns)
 [Week-2 PLSQL](https://github.com/Thanuja2102/Cognizant-Digital-Nurture-4.0-JavaFSE-Handson-2025/tree/main/Week-2%20PLSQL)
 [Week-2 JUnit Testing](https://github.com/Thanuja2102/Cognizant-Digital-Nurture-4.0-JavaFSE-Handson-2025/tree/main/Week-2%20JUnit_Testing)
