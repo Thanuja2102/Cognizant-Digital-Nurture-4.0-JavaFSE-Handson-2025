@@ -10,6 +10,7 @@
 - [Week-3 Spring-Data-JPA](https://github.com/Thanuja2102/Cognizant-Digital-Nurture-4.0-JavaFSE-Handson-2025/tree/main/Week-3%20Spring-data-JPA-Handson)  
 - [Week-4 Spring_Rest](https://github.com/Thanuja2102/Cognizant-Digital-Nurture-4.0-JavaFSE-Handson-2025/tree/main/Week4%20Spring_rest)  
 - [Week-4 JWT_Handson](https://github.com/Thanuja2102/Cognizant-Digital-Nurture-4.0-JavaFSE-Handson-2025/tree/main/Week-4%20JWT_Handson/Create%20authentication%20service%20that%20returns%20JWT)
+- [Week-5 Microservices](https://github.com/Thanuja2102/Cognizant-Digital-Nurture-4.0-JavaFSE-Handson-2025/tree/main/Week-5%20Microservices)
 
 
 
