@@ -1,0 +1,43 @@
+.score-card {
+  text-align: center;
+  background-color: #f0f8ff;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  width: 60%;
+  margin: 30px auto;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.score-card h2 {
+  color: darkslateblue;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.score-card p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.score-card p strong {
+  color: #444;
+  margin-right: 8px;
+}
+
+.score-card p:nth-child(3) {
+  color: darkmagenta;
+}
+
+.score-card p:nth-child(4) {
+  color: crimson;
+}
+
+.score-card p:nth-child(5) {
+  color: blue;
+}
+
+.score-card p:nth-child(6) {
+  color: forestgreen;
+}
