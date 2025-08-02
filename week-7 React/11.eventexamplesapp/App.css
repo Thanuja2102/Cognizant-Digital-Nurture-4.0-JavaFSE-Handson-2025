@@ -1,0 +1,52 @@
+.App {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f0f0f0;
+}
+
+h1 {
+  color: green;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+form {
+  margin-top: 10px;
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+label {
+  display: inline-block;
+  width: 70px;
+}
+
+input[type="number"],
+input[type="text"] {
+  padding: 3px;
+  font-size: 14px;
+  width: 150px;
+}
+
+button[type="submit"] {
+  margin-top: 5px;
+}
+

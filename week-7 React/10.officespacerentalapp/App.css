@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f4f8;
+}
+
+.App {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+h1 {
+  color: #05445E;
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.office-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 500px;
+  transition: transform 0.2s ease;
+}
+
+.office-card:hover {
+  transform: scale(1.02);
+}
+
+.office-img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin: 10px 0;
+}
+
+h3 {
+  margin: 10px 0;
+}
+
+h4 {
+  margin: 10px 0;
+}
+
+.textRed {
+  color: red;
+  font-weight: bold;
+}
+
+.textGreen {
+  color: green;
+  font-weight: bold;
+}
+
