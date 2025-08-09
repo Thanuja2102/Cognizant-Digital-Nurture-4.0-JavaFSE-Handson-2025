@@ -13,6 +13,7 @@
 - [Week-5 Microservices](https://github.com/Thanuja2102/Cognizant-Digital-Nurture-4.0-JavaFSE-Handson-2025/tree/main/Week-5%20Microservices)
 - [week-6 React](https://github.com/Thanuja2102/Cognizant-Digital-Nurture-4.0-JavaFSE-Handson-2025/tree/main/Week-6%20React)
 - [Week-7 React](https://github.com/Thanuja2102/Cognizant-Digital-Nurture-4.0-JavaFSE-Handson-2025/tree/main/week-7%20React)
+- [Week-8 Git-HOL](https://github.com/Thanuja2102/Cognizant-Digital-Nurture-4.0-JavaFSE-Handson-2025/tree/main/Week-8%20Git-HOL)
 
 
 
