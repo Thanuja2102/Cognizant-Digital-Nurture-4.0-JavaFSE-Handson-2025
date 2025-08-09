@@ -1,0 +1,35 @@
+# Check Git version
+git --version
+
+# Set Git username & email
+git config --global user.name "Thanuja"
+git config --global user.email "thanuja21025@gmail.com"
+
+# View Git configuration
+git config --list
+
+# Clone repository
+git clone https://gitlab.com/Thanuja/GitDemo.git
+git clone https://gitlab.com/thanuja21025/GitDemo.git
+
+# Change into repository folder
+cd GitDemo
+
+# Check repository status
+git status
+
+# Add a file
+git add hello.txt
+
+# Commit changes
+git commit -m "Added hello.txt"
+
+# Push changes to remote
+git push origin master
+
+# Change remote URL (when fixing incorrect repo URL)
+git remote set-url origin https://gitlab.com/<your-username>/<your-repo>.git
+
+# View current remotes
+git remote -v
+

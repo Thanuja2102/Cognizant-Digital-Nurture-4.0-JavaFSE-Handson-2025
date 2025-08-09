@@ -1,0 +1,62 @@
+# 1. Verify if master is in clean state
+git status
+
+# 2. Create a branch “GitWork” and add a file “hello.xml”
+git checkout -b GitWork
+echo "<message>Hello from GitWork branch</message>" > hello.xml
+
+# 3. Update the content of “hello.xml”
+echo "<update>Updated content in GitWork</update>" >> hello.xml
+git status
+
+# 4. Commit the changes to branch
+git add hello.xml
+git commit -m "Added hello.xml with initial content in GitWork branch"
+
+# 5. Switch to master
+git checkout master
+
+# 6. Add a file “hello.xml” with different content in master
+echo "<message>Hello from master branch</message>" > hello.xml
+
+# 7. Commit the changes to master
+git add hello.xml
+git commit -m "Added hello.xml with different content in master"
+
+# 8. Observe the log (graph, decorate, all branches)
+git log --oneline --graph --decorate --all
+
+# 9. Check the differences between master and GitWork branch for hello.xml
+git diff master GitWork -- hello.xml
+
+# 10. Use P4Merge (or configured diff tool) for visualization
+git difftool master GitWork -- hello.xml
+
+# 11. Merge branch GitWork into master (expect conflict)
+git merge GitWork
+
+# 12. Observe conflict markers in hello.xml (open in editor)
+
+# 13. Use 3-way merge tool to resolve conflict
+git mergetool
+
+# 14. Commit the merge after resolving conflicts
+git commit -m "Resolved merge conflict in hello.xml and merged GitWork into master"
+
+# 15. Check git status and add backup files to .gitignore
+git status
+echo "*.orig" >> .gitignore
+echo "*.backup" >> .gitignore
+
+# 16. Commit the updated .gitignore
+git add .gitignore
+git commit -m "Added backup files to .gitignore"
+
+# 17. List all branches
+git branch
+
+# 18. Delete the merged branch GitWork
+git branch -d GitWork
+
+# 19. Observe the git log graph after merge and branch deletion
+git log --oneline --graph --decorate

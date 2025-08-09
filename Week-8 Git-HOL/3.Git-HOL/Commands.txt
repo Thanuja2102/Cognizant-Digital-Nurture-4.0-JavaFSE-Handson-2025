@@ -1,0 +1,15 @@
+cd ~/GitDemo
+git checkout -b GitNewBranch
+echo "This is a file in GitNewBranch" > file1.txt
+git add file1.txt
+git commit -m "Added file1.txt in GitNewBranch"
+git push origin GitNewBranch
+git checkout master
+git merge GitNewBranch
+git push origin master
+git branch -d GitNewBranch
+git push origin --delete GitNewBranch
+git branch -d GitNewBranch
+git push origin --delete GitNewBranch
+git log --oneline --graph --decorate
+git status
